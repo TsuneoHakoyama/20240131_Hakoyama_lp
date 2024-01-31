@@ -1,5 +1,7 @@
 /*-----共通部分-----*/
 body {
+width: 1300px;
+  margin: 0 auto;
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   color: #858585;
 }
@@ -61,37 +63,34 @@ ul {
 /*-----ファーストビュー-----*/
 .firstview {
   width: 100%;
-  height: 520px;
 }
 
 .firstview__image {
   width: 60%;
-  height: 100%;
   margin: 0 0 0 auto;
   display: block;
 }
 
 .firstview__image img {
   width: 100%;
-  height: 100%;
 }
 
 .firstview__content {
   width: 60%;
   height: 60%;
-  margin: -470px auto 150px 220px;
+  margin: -470px auto 250px 250px;
   line-height: 1.5;
   display: block;
 }
 
 .firstview__content--title {
-  font-size: 5vw;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .firstview__content--text {
   margin: 30px 0 0;
-  font-size: 1.9vw;
+  font-size: 22px;
   font-weight: bold;
   color: #B31667;
 }
@@ -114,7 +113,7 @@ ul {
 /*-----ニュース-----*/
 #News {
   width: 60%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 .News__title--logo {
   margin-bottom: 10px;
@@ -174,7 +173,7 @@ margin-bottom: 10px;
 .about__image {
   width: 35%;
   display: block;
-  margin: 0 0 0 auto;
+  margin: 0 50px 0 auto;
 }
 
 .about__image img {
@@ -182,8 +181,9 @@ margin-bottom: 10px;
 }
 
 .about__text {
-  width: 45%;
+  width: 55%;
   display: block;
+  line-height: 1.5;
 }
 
 
@@ -238,11 +238,11 @@ margin-bottom: 10px;
 }
 
 .service__content--item1 .service__content--text {
-  width: 80%;
+  width: 75%;
   display: block;
   margin: 20px auto 50px;
+  font-size: 14px;
   line-height: 1.5;
-  font-size: 16px;
 }
 
 .service__content--item2 {
@@ -459,13 +459,14 @@ margin-bottom: 10px;
 /*-----採用情報、インタビューへのリンク-----*/
 .link-item {
   width: 100%;
-  height: 350px;
+  /*height: 350px;*/
   display: flex;
   margin-bottom: 50px;
 }
 
 .link__image--recruit {
   width: 50%;
+  position: relative;
 }
 
 .link__image--recruit img {
@@ -473,14 +474,15 @@ margin-bottom: 10px;
 }
 
 .recruit {
-  display: block;
-  margin-top: -140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.recruit h2 a {
+.recruit a {
   color: #fff;
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -491,6 +493,7 @@ margin-bottom: 10px;
 .link__image--interview {
   width: 50%;
   margin: 0 0 0 auto;
+  position: relative;
 }
 
 .link__image--interview img {
@@ -498,14 +501,16 @@ margin-bottom: 10px;
 }
 
 .interview {
-  display: block;
-  margin-top: -140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.interview h2 a {
+.interview a {
   color: #fff;
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: bold;
 }
 
