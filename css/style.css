@@ -1,6 +1,6 @@
 /*-----共通部分-----*/
 body {
-width: 1300px;
+  width: 1000px;
   margin: 0 auto;
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   color: #858585;
@@ -78,25 +78,24 @@ ul {
 .firstview__content {
   width: 60%;
   height: 60%;
-  margin: -470px auto 250px 250px;
+  margin: -370px auto 200px 200px;
   line-height: 1.5;
   display: block;
 }
 
 .firstview__content--title {
-  font-size: 60px;
+  font-size: 44px;
   font-weight: bold;
 }
 
 .firstview__content--text {
   margin: 30px 0 0;
-  font-size: 22px;
   font-weight: bold;
   color: #B31667;
 }
 
 .firstview__content--company {
-  font-size: 14px;
+  font-size: 12px;
   color: #979797;
   line-height: 2;
 }
@@ -106,7 +105,7 @@ ul {
 }
 
 .bold {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -127,6 +126,7 @@ ul {
 .News__list {
   padding: 15px 0;
   font-size: 14px;
+  font-weight: bold;
   line-height: 3;
   border-top: 3px solid #E3E3E3;
   border-bottom: 3px solid #E3E3E3;
@@ -149,7 +149,7 @@ ul {
   width: 100%;
   background: #F5F5F5;
   padding: 30px 0 ;
-  margin: 30px 0;
+  margin: 50px 0;
   position: relative;
 }
 
@@ -159,21 +159,23 @@ margin-bottom: 10px;
 }
 
 .about__title--text {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 
 .about__content {
-  width: 70%;
+  width: 75%;
   display: flex;
-  justify-content: space-around;
-  margin: 50px auto 15px;
+  justify-content: space-between;
+  margin: 30px auto 15px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .about__image {
   width: 35%;
   display: block;
-  margin: 0 50px 0 auto;
+  margin: 0 40px 0 auto;
 }
 
 .about__image img {
@@ -181,7 +183,7 @@ margin-bottom: 10px;
 }
 
 .about__text {
-  width: 55%;
+  width: 45%;
   display: block;
   line-height: 1.5;
 }
@@ -207,6 +209,7 @@ margin-bottom: 10px;
   display: block;
   margin-bottom: 50px;
   color: #fff;
+  font-weight: bold;
 }
 
 .service__content a {
@@ -221,7 +224,6 @@ margin-bottom: 10px;
   display: block;
   width: 50%;
   height: 317px;
-  padding: 30px 0;
   background: #B31667;
 }
 
@@ -234,22 +236,20 @@ margin-bottom: 10px;
 .service__content--item1 .service__content--title {
   text-align: center;
   margin-top: 20px;
-  font-size: 18px;
 }
 
 .service__content--item1 .service__content--text {
-  width: 75%;
+  width: 85%;
   display: block;
   margin: 20px auto 50px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
 .service__content--item2 {
   width: 50%;
   height: 158.5px;
-  margin: -377px 0 0 auto;
-  padding: 15px 0;
+  margin: -317px 0 0 auto;
   background: #B35B8B;
   display: flex;
   align-items: center;
@@ -259,27 +259,27 @@ margin-bottom: 10px;
   width: 30%;
   display: inline-block;
   margin: 0 auto 0 0;
-  padding: 20px;
+  padding: 10px;
 }
 
 .service__content--item2 .service__content--text--wrapper {
-  width: 60%;
-  margin: 0 20px 0 0;
+  width: 65%;
+  margin: 0 10px 0 0;
   display: inline-block;
 }
 .service__content--item2 .service__content--title {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .service__content--item2 .service__content--text {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
+
 }
 
 .service__content--item3 {
   width: 50%;
   height: 158.5px;
-  padding: 15px 0px;
   margin: 0 0 0 auto;
   background: #B2889E;
   display: flex;
@@ -291,21 +291,21 @@ margin-bottom: 10px;
   width: 30%;
   display: inline-block;
   margin: 0 auto 0 0;
-  padding: 20px;
+  padding: 10px;
 }
 
 .service__content--item3 .service__content--text--wrapper {
-  width: 60%;
-  margin: 0 20px 0 0;
+  width: 65%;
+  margin: 0 10px 0 0;
   display: inline-block;
 }
 
 .service__content--item3 .service__content--title {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .service__content--item3 .service__content--text {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
@@ -319,7 +319,7 @@ margin-bottom: 10px;
 .blog__wrapper {
   width: 75%;
   margin: 30px auto;
-  padding: 0 0 30px 0;
+  padding: 0 0 20px 0;
 }
 
 .blog__title--logo {
@@ -391,6 +391,8 @@ margin-bottom: 10px;
 }
 
 .blog__content--title {
+  font-size: 12px;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -414,7 +416,7 @@ margin-bottom: 10px;
   width: 150px;
   display: block;
   text-align: center;
-  margin: 30px auto;
+  margin: 10px auto;
   padding: 10px 20px;
   background: #fff;
   border: solid 1px #B31667;
@@ -426,7 +428,7 @@ margin-bottom: 10px;
 /*-----会社概要-----*/
 #company-info {
   width: 60%;
-  margin: 80px auto;
+  margin: 60px auto;
 }
 
 .info__title--logo {
@@ -450,16 +452,15 @@ margin-bottom: 10px;
 
 .info__table--head {
   width: 30%;
-  font-weight: bold;
   background-color: #F5F5F5;
   text-align: start;
+  font-weight: bold;
 }
 
 
 /*-----採用情報、インタビューへのリンク-----*/
 .link-item {
   width: 100%;
-  /*height: 350px;*/
   display: flex;
   margin-bottom: 50px;
 }
@@ -482,7 +483,7 @@ margin-bottom: 10px;
 }
 .recruit a {
   color: #fff;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -510,7 +511,7 @@ margin-bottom: 10px;
 
 .interview a {
   color: #fff;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -526,7 +527,7 @@ margin-bottom: 10px;
 
 .contact__title {
   text-align: center;
-  font-size: 20px;
+  font-weight: bold;
 }
 
 .bar {
